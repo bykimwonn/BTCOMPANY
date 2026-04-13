@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BT Software Solutions | Software Excellence</title>
+    <title>BT Software Solutions | Excellence</title>
     <style>
         /* Base Styles & Color Palette */
         :root {
@@ -125,7 +125,7 @@
         .hero-image {
             width: 45%;
             height: 400px;
-            background: url('https://via.placeholder.com/600x400/161B22/00D2FF?text=Tech+Infrastructure+Image') center/cover;
+            background: url('pc1.jpg') center/cover;
             border-radius: 15px;
             border: 1px solid #30363D;
             box-shadow: 0 20px 50px rgba(0,0,0,0.5);
@@ -148,7 +148,7 @@
             margin-right: auto;
         }
 
-        /* About Section (Updated) */
+        /* About Section */
         .about {
             padding: 100px 10%;
             background-color: var(--bg-card);
@@ -174,6 +174,15 @@
             color: var(--text-muted);
             margin-bottom: 15px;
             font-size: 1.1rem;
+        }
+
+        .about-image {
+            flex: 1;
+            height: 350px;
+            background: url('pc2.jpg') center/cover;
+            border-radius: 10px;
+            border: 1px solid #30363D;
+            margin-top: 20px;
         }
 
         /* Founder Card */
@@ -348,7 +357,7 @@
         .roadmap-image {
             flex: 1;
             height: 250px;
-            background: url('https://via.placeholder.com/400x250/0D1117/00D2FF?text=MineSync+Dashboard+Mockup') center/cover;
+            background: url('pc3.jpg') center/cover;
             border-radius: 10px;
             border: 1px solid #30363D;
         }
@@ -444,7 +453,7 @@
                 flex-direction: column;
                 text-align: center;
             }
-            .hero-image, .founder-card, .roadmap-image {
+            .hero-image, .founder-card, .roadmap-image, .about-image {
                 width: 100%;
                 margin-top: 40px;
             }
@@ -464,7 +473,7 @@
 <body>
 
     <header>
-        <div class="logo">BT Software Solutions</div>
+        <div class="logo">BT</div>
         <nav>
             <ul>
                 <li><a href="#about">About</a></li>
@@ -482,6 +491,13 @@
             <a href="#contact"><button class="cta-btn">Initialize Consultation</button></a>
         </div>
         <div class="hero-image"></div>
+    </section>
+
+    <section style="padding: 40px 10%; text-align: center; background-color: var(--bg-dark);">
+        <video width="100%" style="max-width: 800px; border-radius: 10px; border: 1px solid var(--neon-cyan); box-shadow: 0 10px 30px rgba(0,210,255,0.2);" controls>
+            <source src="promoo.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
     </section>
 
     <section class="stats">
@@ -503,8 +519,9 @@
         <div class="about-grid">
             <div class="about-text">
                 <h2>The BT Philosophy</h2>
-                <p>At BT Company Official, we understand that hardware is only as good as the software running it. Whether you are an individual relying on a single laptop for heavy processing, or a manager overseeing a complex network, slow software costs time and money.</p>
+                <p>At BT Software Solutions, we understand that hardware is only as good as the software running it. Whether you are an individual relying on a single laptop for heavy processing, or a manager overseeing a complex network, slow software costs time and money.</p>
                 <p>We bridge the gap between technical potential and daily execution. Our mission is to strip away the unnecessary, secure the vital, and automate the tedious.</p>
+                <div class="about-image"></div>
             </div>
             
             <div class="founder-card">
@@ -608,7 +625,7 @@
         </div>
         
         <p class="copyright">
-            &copy; 2026 BT COMPANY Official. All rights reserved. Built for Excellence.
+            &copy; 2026 BT Software Solutions. All rights reserved. Built for Excellence.
         </p>
     </footer>
 
